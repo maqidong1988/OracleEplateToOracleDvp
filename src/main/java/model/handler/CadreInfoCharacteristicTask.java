@@ -46,7 +46,7 @@ public class CadreInfoCharacteristicTask implements Runnable {
                 CadreInfoCharacteristic cadreInfoCharacteristic = new CadreInfoCharacteristic();
                 cadreInfoCharacteristic.setCadreId(cadreInfoIds.get(i));
                 cadreInfoCharacteristic.setId(UUID.randomUUID().toString());
-                int characteristicIndex = random.nextInt(29);
+                int characteristicIndex = random.nextInt(28);
                 cadreInfoCharacteristic.setCharacteristic(characteristicArrays[characteristicIndex]);
                 int characteristicWeight = random.nextInt(5000);
                 cadreInfoCharacteristic.setWeight(characteristicWeight);
