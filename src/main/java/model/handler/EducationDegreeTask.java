@@ -1,6 +1,4 @@
 package model.handler;
-
-import com.sun.org.apache.xml.internal.resolver.readers.TR9401CatalogReader;
 import model.to.cadredb.CadreInfoDegree;
 import model.to.cadredb.CadreInfoEducation;
 import org.hibernate.*;
